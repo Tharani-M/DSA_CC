@@ -107,3 +107,45 @@ int main() {
     }
   return 0;
 }
+
+//Task 2:
+// Prob 1 : Write a program which takes two values x and y. Prints x for y number of times.
+#include <iostream>
+using namespace std;
+int main() {
+    int val1,val2;
+    cout << "Enter your 2 values \n";
+    cin >> val1>>val2;
+    for(int i=1;i<=val2;i++){
+        cout<<val1;
+    }
+    return 0;
+}
+
+//Prob 2 : Write a program to take x and print multiples of x till 1000.
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    cout << "Enter x \n";
+    cin >> x;
+    for(int i=x;i<=1000;i = i+x){
+        cout<< i << endl;
+    }
+     return 0;
+}
+
+//Prob 3: Write a program to get firstName and lastName and n as input and print fullName that is firstName+lastName for n times.
+#include <iostream>
+using namespace std;
+int main() {
+    int times;
+    string fname,lname;
+    cout << "Enter first and last names and number of times should be printed \n";
+    cin >> fname>>lname>>times;
+    for(int i=1;i<=times;i++){
+        cout<< fname+lname<< endl;
+    }
+    return 0;
+}
+    
