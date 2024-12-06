@@ -199,3 +199,9 @@ public class Main {
       
   }
 }
+
+// Note : Same to print  like, change to j instead '*' in line System.out.print("*");
+4321
+432
+43
+4
