@@ -266,3 +266,19 @@ int main()
     return 0;
 }
 
+//Task - 4
+// Prob 1 : Write a program that gets n as input and print the number of digits in the number
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int c,n;
+    cin>>n;
+    while(n>0){
+      c++;
+      n = n/10;
+    }
+    cout<<c;
+    return 0;
+}
