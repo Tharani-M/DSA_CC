@@ -284,3 +284,22 @@ public class Main {
       System.out.println(c);
   }
 }
+
+//Prob 2: Write a program that gets n as input and print the reverse of the number
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int last,n,sum=0;
+      
+      Scanner s = new Scanner(System.in);
+      n = s.nextInt();
+      while(n>0){
+        last = n%10;
+        sum = (10*sum)+last;
+        n=n/10;
+      }
+      System.out.println(sum);
+  }
+}
