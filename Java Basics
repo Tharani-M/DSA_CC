@@ -303,3 +303,19 @@ public class Main {
       System.out.println(sum);
   }
 }
+
+//Task 4
+//Prob 3:Write a program that gets n as input and print the factorial of a number(n!).
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n,fact=1;
+      Scanner s=new Scanner(System.in);
+      n = s.nextInt();
+      for(int i=1;i<=n;i++){
+        fact = fact * i;
+      }
+      System.out.print(fact);
+    }
+}
