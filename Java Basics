@@ -319,3 +319,5 @@ public class Main {
       System.out.print(fact);
     }
 }
+
+//Prob 4: Write a program that gets n as input and print all the prime numbers till that number.
