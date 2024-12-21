@@ -321,3 +321,23 @@ public class Main {
 }
 
 //Prob 4: Write a program that gets n as input and print all the prime numbers till that number.
+
+DSA 🚀👩‍💻👩‍💻
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Task 1:
+Prob 1: Write a Program to find the smallest element in the Array
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int [] arr = {5 ,7, 34,67 ,2 ,56, 5, 8};
+      int small = arr[0];
+      for(int i=1;i<arr.length;i++){
+        if (small > arr[i]){
+          small = arr[i];
+        }
+      }
+      System.out.println("The smallest element is  "+ small);
+  }
+}
