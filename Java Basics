@@ -341,3 +341,8 @@ public class Main {
       System.out.println("The smallest element is  "+ small);
   }
 }
+Prob 2: You are given an array arr[], the task is to return a list elements of arr in alternate order (starting from index 0). - Refer CPP
+
+Prob 3: Given an array arr of integers and an index key(0-based index). Your task is to return the element present at the index key in the array. - Refer cpp
+
+Prob 4: Given an array arr, the task is to find whether the arr is palindrome or not. If the arr is palindrome then return true else return false.  - Refer cpp
