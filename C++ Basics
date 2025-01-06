@@ -525,3 +525,24 @@ int main()
     cout<<k;
     return 0;
 }
+
+Prob 8: Write a recursive program to find the sum of digits of a number.
+
+#include <iostream>
+using namespace std;
+int digC(int n){
+   if(n == 0){
+      return 0;
+    }
+    else{
+      return (n%10)+digC(n/10);
+    }
+}
+int main() 
+{
+    int n,k;
+    cin>>n;
+     k = digC(n);
+    cout<<k;
+    return 0;
+}
