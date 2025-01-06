@@ -504,3 +504,24 @@ cout<<sum;
 }
    
 }
+
+Prob 7: Write a recursive algorithm to find the count of digits in a number.
+
+#include <iostream>
+using namespace std;
+int digC(int n){
+   if(n%10 == n){
+      return 1;
+    }
+    else{
+      return 1+digC(n/10);
+    }
+}
+int main() 
+{
+    int n,k;
+    cin>>n;
+     k = digC(n);
+    cout<<k;
+    return 0;
+}
