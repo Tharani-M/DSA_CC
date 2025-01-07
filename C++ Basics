@@ -595,3 +595,25 @@ int main()
     factors(n,sq, i);
     return 0;
 }
+
+Prob 10:Write a Program to find the power of a number recursively. Take two inputs, number and the power.
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int divs(int n,int k){
+   if(k>=1){
+     if ( k ==1){
+     return 1;
+   }
+   return  n * divs(n,k-1);
+   }   
+}
+int main() 
+{
+    int n,k;
+    cin>>n>>k;
+    int j = divs(n,k+1);
+    cout<<j;
+    return 0;
+}
