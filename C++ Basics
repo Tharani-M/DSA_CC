@@ -552,6 +552,7 @@ Example:
 Input: 6
 Output: 1 2 3 6
 
+solution 1:
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -569,5 +570,28 @@ int main()
     int n,k=1;
     cin>>n;
     divs(n,k);
+    return 0;
+}
+
+Solution 2:
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+void factors(int n,int sq,int i){
+  if(i <= sq){
+    if(n%i == 0){
+      cout<<i<<endl;
+      cout<<n/i<<endl;
+    }
+   factors(n,sq,i+1);
+  } 
+}
+int main() 
+{
+   int n,i=1,sq;
+   cin>>n;
+   sq = sqrt(n);
+    factors(n,sq, i);
     return 0;
 }
